@@ -56,7 +56,7 @@ const Header = () => {
                   name="search"
                 />
                 <button
-                  className="rounded-btn text-white bg-primary px-2 py-[10px]"
+                  className="text-[10px] rounded-btn text-white bg-primary px-2 py-[10px]"
                   type="submit"
                 >
                   search
@@ -95,7 +95,7 @@ const Header = () => {
                 name="search"
               />
               <button
-                className="rounded-btn w-1/6 text-white bg-primary px-2 py-[10px]"
+                className="text-[10px] rounded-btn w-1/6 text-white bg-primary px-2 py-[10px]"
                 type="submit"
               >
                 search

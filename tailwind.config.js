@@ -19,6 +19,8 @@ module.exports = {
       },
       backgroundImage: {
         footer: "url('/src/images/footer.svg')",
+        feature: "url('/src/images/featured.png')",
+        "feature-hover": "url('/src/images/featured-hover.png')",
       },
     },
   },

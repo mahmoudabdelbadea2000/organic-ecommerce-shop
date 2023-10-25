@@ -12,6 +12,7 @@
   input {
     @apply focus:outline-none;
   }
+  /* start header section */
   .rounded-input {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -23,4 +24,17 @@
   header nav a.active {
     @apply text-white;
   }
+  /* end header section */
+
+  /* start feature section */
+  .icon-feature-hover:hover .icon-feture {
+    @apply text-white;
+  }
+  .feature-content {
+    @apply flex flex-col justify-center items-center gap-3 basis-[50%] lg:basis-[25%] py-4 relative after:transition-all after:absolute after:-bottom-0 after:left-0 after:w-full after:h-0 hover:after:h-[3px] after:bg-primary after:rounded-full;
+  }
+  .feature-icon-wrapper {
+    @apply flex justify-center items-center bg-feature bg-no-repeat bg-cover w-[70px] h-[70px] transition-all hover:bg-feature-hover icon-feature-hover;
+  }
+  /* end feature section */
 }
