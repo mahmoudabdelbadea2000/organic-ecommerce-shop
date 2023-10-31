@@ -18,9 +18,9 @@ module.exports = {
         danger: "#EA4B48",
       },
       backgroundImage: {
-        footer: "url('/src/images/footer.svg')",
-        feature: "url('/src/images/featured.png')",
-        "feature-hover": "url('/src/images/featured-hover.png')",
+        footer: "url('/src/assets/images/footer.svg')",
+        feature: "url('/src/assets/images/featured.png')",
+        "feature-hover": "url('/src/assets/images/featured-hover.png')",
       },
     },
   },

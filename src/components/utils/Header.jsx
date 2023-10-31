@@ -6,7 +6,7 @@ import { FaAngleDown } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../images/Logo.svg";
+import logo from "../../assets/images/Logo.svg";
 
 const Header = () => {
   return (
@@ -56,7 +56,7 @@ const Header = () => {
                   name="search"
                 />
                 <button
-                  className="text-[10px] rounded-btn text-white bg-primary px-2 py-[10px]"
+                  className="text-sm rounded-btn text-white bg-primary px-2 py-[10px]"
                   type="submit"
                 >
                   search

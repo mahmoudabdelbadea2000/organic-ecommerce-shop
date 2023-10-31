@@ -2,13 +2,13 @@ import React from "react";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoPinterestAlt } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import mobileApp1 from "../../images/App Store.png";
-import apple from "../../images/ApplePay.svg";
-import Cart from "../../images/Cart.svg";
-import Discover from "../../images/Discover.svg";
-import mobileApp2 from "../../images/Google Play.png";
-import logo from "../../images/Logo-footer.svg";
-import Mastercard from "../../images/Mastercard.svg";
+import mobileApp1 from "../../assets/images/App Store.png";
+import apple from "../../assets/images/ApplePay.svg";
+import Cart from "../../assets/images/Cart.svg";
+import Discover from "../../assets/images/Discover.svg";
+import mobileApp2 from "../../assets/images/Google Play.png";
+import logo from "../../assets/images/Logo-footer.svg";
+import Mastercard from "../../assets/images/Mastercard.svg";
 
 const Footer = () => {
   return (

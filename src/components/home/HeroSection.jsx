@@ -1,9 +1,9 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import banner1 from "../../images/hero-banner-1.png";
-import banner2 from "../../images/hero-banner-2.png";
-import banner3 from "../../images/hero-banner-3.png";
+import banner1 from "../../assets/images/hero-banner-1.png";
+import banner2 from "../../assets/images/hero-banner-2.png";
+import banner3 from "../../assets/images/hero-banner-3.png";
 
 const HeroSection = () => {
   return (
@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="flex justify-center items-center gap-5 flex-col md:flex-row">
           <div className="relative">
             <img className="max-h-[400px]" src={banner1} alt="banner-1" />
-            <div className="absolute top-[50%] left-5 md:left-10 translate-y-[-50%] text-white z-50 max-w-[60%] sm:max-w-[50%]">
+            <div className="absolute top-[50%] left-5 md:left-10 translate-y-[-50%] text-white z-20 max-w-[60%] sm:max-w-[50%]">
               <h1 className="text-xl sm:text-3xl lg:text-4xl font-[600]">
                 Fresh & Healthy Organic Food
               </h1>
@@ -36,7 +36,7 @@ const HeroSection = () => {
                 </button>
               </Link>
             </div>
-            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#00000080] to-transparent rounded-md z-40" />
+            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#00000080] to-transparent rounded-md z-10" />
           </div>
           <div className="flex flex-row md:flex-col gap-5">
             <div className="relative">
