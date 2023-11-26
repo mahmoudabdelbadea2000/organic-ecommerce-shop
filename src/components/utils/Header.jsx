@@ -44,7 +44,9 @@ const Header = () => {
         <div className="container">
           <div className="flex justify-between items-center">
             <div>
-              <img src={logo} alt="logo" />
+              <a href="/">
+                <img src={logo} alt="logo" />
+              </a>
             </div>
             <form method="get" className="hidden sm:block text-sm">
               <div className="relative">

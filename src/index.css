@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,6 +11,15 @@
 @layer base {
   input {
     @apply focus:outline-none;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
   }
   /* start header section */
   .rounded-input {
@@ -56,4 +65,26 @@
     @apply flex;
   }
   /* end social media section */
+  /* start side filter products */
+  .check__box label {
+    @apply ml-6 before:absolute before:top-[50%] before:left-0 before:w-4
+          before:h-4 before:-mt-[8px] before:border before:border-gray-400 before:rounded-full after:absolute after:top-[50%] after:left-0 after:-mt-[8px] after:w-4 after:h-4 after:rounded-full after:border after:border-primary after:hidden;
+  }
+  .check__box input[type="checkbox"]:checked + label::after,
+  .check__box input[type="checkbox"]:checked ~ .icon__checked {
+    @apply flex;
+  }
+  .track_price:nth-child(2) {
+    @apply bg-primary;
+  }
+  /* end side filter products */
+  .image-gallery-thumbnails .image-gallery-thumbnails-container {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    -webkit-transform: translateY(-50%) !important;
+    -moz-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    -o-transform: translateY(-50%) !important;
+  }
 }

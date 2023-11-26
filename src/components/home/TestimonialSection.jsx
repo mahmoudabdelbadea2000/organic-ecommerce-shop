@@ -59,7 +59,7 @@ const TestimonialSection = () => {
           {testimonialSlides.map((slide, idx) => {
             return (
               <SwiperSlide key={idx}>
-                <div className="shadow-lg p-3">
+                <div className="shadow-lg p-3 bg-white">
                   <RxQuote className="text-soft-primary text-6xl" />
                   <p className="font-extralight text-sm my-4">
                     Pellentesque eu nibh eget mauris congue mattis mattis nec

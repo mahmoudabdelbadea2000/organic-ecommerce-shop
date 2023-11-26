@@ -13,7 +13,7 @@ import {
   ProductsContainer,
   SocialMediaSection,
   TestimonialSection,
-} from "../components";
+} from "../../components";
 
 const HomePage = () => {
   const [showOfferModal, setShowOfferModal] = useState(true);

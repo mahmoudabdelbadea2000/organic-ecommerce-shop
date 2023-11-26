@@ -32,61 +32,73 @@ export const categoriesData = [
     id: 1,
     title: "Fresh Fruit",
     img: fruit,
+    qty: 134,
   },
   {
     id: 2,
     title: "Fresh Vegetables",
     img: vegetables,
+    qty: 150,
   },
   {
     id: 3,
     title: "Meat & Fish",
     img: meat_fish,
+    qty: 54,
   },
   {
     id: 4,
     title: "Snacks",
     img: snacks,
+    qty: 47,
   },
   {
     id: 5,
     title: "Beverages",
     img: beverages,
+    qty: 43,
   },
   {
     id: 6,
     title: "Beauty & Health",
     img: beauty_health,
+    qty: 38,
   },
   {
     id: 7,
     title: "Bread & Bakery",
     img: bread_bakery,
+    qty: 15,
   },
   {
     id: 8,
     title: "Baking Needs",
     img: baking,
+    qty: 42,
   },
   {
     id: 9,
     title: "Cooking",
     img: cooking,
+    qty: 173,
   },
   {
     id: 10,
     title: "Diabetic Food",
     img: diabetic_food,
+    qty: 19,
   },
   {
     id: 11,
     title: "Dish Detergents",
     img: dish_detergents,
+    qty: 61,
   },
   {
     id: 12,
     title: "Oil",
     img: oil,
+    qty: 82,
   },
 ];
 
@@ -201,4 +213,20 @@ export const testimonialSlides = [
   { client: client1, name: "Robert Fox" },
   { client: client2, name: "Dianne Russell" },
   { client: client3, name: "Eleanor Pena" },
+];
+
+export const popluarTags = [
+  "health",
+  "low fat",
+  "vegetarian",
+  "kids food",
+  "fitamins",
+  "bread",
+  "meat",
+  "snacks",
+  "tiffin",
+  "lunch",
+  "dinner",
+  "breakfast",
+  "fruit",
 ];

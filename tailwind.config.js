@@ -21,6 +21,7 @@ module.exports = {
         footer: "url('/src/assets/images/footer.svg')",
         feature: "url('/src/assets/images/featured.png')",
         "feature-hover": "url('/src/assets/images/featured-hover.png')",
+        "bread-crumbs": "url('/src/assets/images/Breadcrumbs.jpg')",
       },
     },
   },
